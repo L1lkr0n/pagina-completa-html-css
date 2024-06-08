@@ -4,5 +4,11 @@
     $User = "root";
     $pass = "";
 
-    $DB = "";
+    $db = "iniciosesiondb";
+
+    $conexion = mysqli_connect($host,$User,$pass,$db);
+
+    if (!$conexion) {
+        echo "Conexion fallida";
+    }
 

@@ -69,3 +69,11 @@ a{
 a:hover{
     color: black;
 }
+.error{
+    background-color: red;
+    color: black;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}

@@ -11,8 +11,20 @@
     <title>Inicio Sesion</title>
 </head>
 <body>
-    <form action="IniciarSesion.php" method="POST">
+    <form action="iniciarSesion.php" method="POST">
         <h1>INICIAR SESION</h1>
+        <hr>
+        <?php
+            if(isset($_GET['error'])){
+            ?>
+            <p class="error">
+                <?php
+                echo $_GET['error']
+                ?>
+            </p>  
+        <?php      
+            }
+        ?>    
         <hr>
         <i class="fa-solid fa-user"></i>
         <label>Usuario</label>
