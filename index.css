@@ -141,7 +141,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/front-end.jpg");
+    ,url("media/hidraulico.jpeg");
 
 }
 
@@ -151,7 +151,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/full-stack.jpg");
+    ,url("media/manuales.jpeg");
 }
 
 .carta:nth-child(3){
@@ -160,7 +160,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/python.jpg");
+    ,url("media/personal.jpeg");
 
 }
 

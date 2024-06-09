@@ -18,7 +18,9 @@
 
     <section id="hero">
         <h1>Compra los mejores <br>productos de maestranza <br>por los mejores precios</h1>
-        <button class="btn" type="button" onclick="redireccion()">Tienda</button>
+        
+        <button onclick="location.href='inicio_sesion.php'">Ir a PHP</button>
+      
     </section>
 
     <section id="somos-maesunidos">
@@ -75,6 +77,10 @@
             <p>&copy; Maestranzas Unidos S.A.</p>
         </div>
     </footer>
-    <script src="links.js"></script>
+    <script>
+        function redirigir(){
+          window.location.href = "inicio_sesion.php";
+        }
+    </script>
 </body>
 </html>
